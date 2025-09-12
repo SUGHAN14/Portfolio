@@ -1,3 +1,3 @@
 # Portfolio
 
-https://sughan-4mdfondoe-sughan-ms-projects.vercel.app/
+https://sughan.vercel.app/
