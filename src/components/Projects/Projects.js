@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // Project images
-import mediconnect from "../../Assets/Projects/mediconnect.jpg";
+
 import ecommerce from "../../Assets/Projects/ecommerce.jpg";
 import face from "../../Assets/Projects/Face-recognition-1-370x253.jpg";
 
