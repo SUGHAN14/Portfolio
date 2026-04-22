@@ -14,9 +14,7 @@ function AboutCard() {
             I’m currently pursuing my B.Tech in Information Technology at
             St. Joseph’s Institute of Technology.
             <br />
-            I have a strong interest in Java Backend development and full-stack
-            technologies, and I’m currently looking for internship opportunities
-            to apply and grow my skills in real-world projects.
+            I have a strong interest in Java Backend development, full-stack technologies, and SAP ERP modules (FI, MM, SD), along with ABAP development. I am currently seeking internship opportunities to apply and enhance my skills through real-world projects.
             <br />
             <br />
             Apart from coding, here are a few activities I enjoy:

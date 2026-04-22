@@ -35,16 +35,22 @@ function Home2() {
               </i>
               <br />
               <br />
-              I'm especially interested in building interactive and responsive
-              web applications, and currently seeking internship opportunities
-              to apply my skills and grow professionally.
+              I'm especially interested in building interactive and responsive web applications, along with working on SAP ERP modules (FI, MM, SD) and ABAP development. I am currently seeking internship opportunities to apply my skills and grow professionally.
               <br />
               <br />
               I also enjoy exploring areas like{" "}
-              <i>
-                <b className="purple">full-stack development</b>
-              </i>{" "}
-              and creating smooth user experiences with modern libraries and frameworks.
+<i>
+  <b className="purple">full-stack development</b>
+</i>{" "}
+along with{" "}
+<i>
+  <b className="purple">SAP ERP modules (FI, MM, SD)</b>
+</i>{" "}
+and{" "}
+<i>
+  <b className="purple">ABAP development</b>
+</i>{" "}
+while creating smooth user experiences with modern libraries and frameworks.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

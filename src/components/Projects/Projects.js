@@ -4,14 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // Project images
-import spotify from "../../Assets/Projects/spotify.jpg";
 import mediconnect from "../../Assets/Projects/mediconnect.jpg";
 import ecommerce from "../../Assets/Projects/ecommerce.jpg";
 import face from "../../Assets/Projects/Face-recognition-1-370x253.jpg";
-import githunt from "../../Assets/Projects/Githunt.jpg";
-import quizapp from "../../Assets/Projects/marvelquiz.jpg";
-import weatherapp from "../../Assets/Projects/weatherapp.jpg";
-import todolist from "../../Assets/Projects/todolist.jpg";
+
+// 👉 Add a SAP image in your folder (sap.jpg or sap.png)
+import sap from "../../Assets/Projects/sap.jpg";
 
 function Projects() {
   return (
@@ -24,18 +22,10 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={spotify}
-              isBlog={false}
-              title="Spotify Clone"
-              description="A full-stack music streaming application inspired by Spotify, featuring user authentication, playlists, and seamless audio playback."
-              ghLink="https://github.com/SUGHAN14/spotify-clone"
-              
-            />
-          </Col>
 
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          {/* Face Recognition */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={face}
@@ -43,9 +33,10 @@ function Projects() {
               title="Face Recognition Attendance Marking System"
               description="An AI-powered face recognition and attendance system with real-time authentication, liveness detection, and automated Excel/email reporting."
               ghLink="https://github.com/SUGHAN14/Face-Detection-and-Attendance-Marking"
-              
             />
           </Col>
+
+          {/* Ecommerce */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
@@ -53,9 +44,21 @@ function Projects() {
               title="Multitenant Ecommerce using Springboot"
               description="A Spring Boot-based e-commerce application enabling buyers and sellers to manage products, orders, and carts with secure authentication and seamless multi-tenant support."
               ghLink="https://github.com/SUGHAN14/Ecommerce"
-              
             />
           </Col>
+
+          {/* ✅ SAP Project */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sap}
+              isBlog={false}
+              title="SAP S/4HANA Implementation Project"
+              description="Worked on SAP SD, MM, and FI modules by configuring enterprise structure elements like Plant, Company Code, and Storage Location. Performed basic ABAP configurations such as maintaining employee data and understanding core business processes as a fresher."
+              
+              isSAP={true}
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

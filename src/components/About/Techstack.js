@@ -16,11 +16,13 @@ import {
   SiTailwindcss,
   SiSpringboot,
   SiSpring,
+  SiSap,        // ✅ SAP icon added
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      
       {/* Java */}
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
@@ -29,6 +31,11 @@ function Techstack() {
       {/* Python */}
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+
+      {/* SAP */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSap />
       </Col>
 
       {/* Spring Boot */}
@@ -85,6 +92,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
       </Col>
+
     </Row>
   );
 }
